@@ -1,0 +1,21 @@
+
+@media only screen and (max-width:600px) {
+.responsive {
+position: fixed;
+top: 10px;
+z-index: 1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width:100%;
+max-height:100%;
+background-color: rgba(0,0,0,0.4);
+       }
+  }
+        
+ @media only screen and (min-width:600px) {
+ .responsive {
+ display: none;
+ 
+        }
+    }
